@@ -1,0 +1,56 @@
+/*
+Created by: Seth Harbin
+Created on: 3/1/2019
+Last Edited on: 3/1/2019
+*/
+header, footer {
+	font-family: 'Overpass', sans-serif;
+	background-color: #546a7b;
+	color: #fef9ff;
+}
+
+body {
+	background-color: #b2d1ff;
+}
+
+nav {
+	border-top: 3px dashed #546a7b;
+	border-bottom: 3px dashed #546a7b;
+	margin-top: 4px;
+}
+
+.clear-float {
+	clear:both;
+}
+
+nav a {
+	background-color: #5b7d87;
+	color: #fef9ff;
+	padding: 8px;
+	border: thin solid #0d1f2d;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin: 20px;
+	width: 100px;
+	float: left;
+}
+
+nav a:visited {
+	color: #e4c3ad;
+}
+
+nav a:hover {
+	background-color: #fef9ff;
+	color: #5b7d87;
+	font-weight: bold;
+}
+
+nav a:active {
+	font-weight: bold;
+}
+
+#carouselBasic {
+	background-color: #546a7b;
+	color: #fef9ff
+}
